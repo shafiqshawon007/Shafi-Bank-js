@@ -1,0 +1,32 @@
+body{
+  padding: 100px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+}
+.bank_title{
+  text-align: center;
+}
+.submit_area{
+  padding: 40px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray;
+}
+#transaction_area{
+  display:none;
+}
+.status{
+  margin: 0 20px;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+}
+.Deposit{
+  background-color: slateblue;
+}
+.Withdraw{
+  background-color: lightsalmon;
+}
+.Balance{
+  background-color: orange;
+}
